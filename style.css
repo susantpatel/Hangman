@@ -1,0 +1,84 @@
+.svg-container{
+    background-color: antiquewhite;
+}
+
+.bar{
+    stroke: blue;
+    stroke-width: 2;
+}
+
+.head{
+    stroke: red;
+    stroke-width: 2;
+    fill: none;
+    visibility: hidden;
+}
+
+.body{
+    stroke: red;
+    stroke-width: 2;
+    visibility: hidden;
+}
+
+.arm-left{
+    stroke: red;
+    stroke-width: 2;
+    visibility: hidden;
+}
+
+.arm-right{
+    stroke: red;
+    stroke-width: 2;
+    visibility: hidden;
+}
+
+.leg-right{
+    stroke: red;
+    stroke-width: 2;
+    visibility: hidden;
+}
+
+.leg-left{
+    stroke: red;
+    stroke-width: 2;
+    visibility: hidden;
+}
+
+.upper-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.word-guess{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.guess{
+    font-size: 50px;
+    border-bottom: 2px solid green;
+    margin-right: 10px;
+    flex-basis: 50px;
+    align-self: center;
+}
+
+.wrong-letters{
+    font-size: 30px;
+}
+
+.gameOver{
+    background-color: aliceblue;
+    height: 400px;
+    width: 400px;
+    border: 2px solid green;
+    display: none;
+}
+
+.game-won{
+    background-color: aliceblue;
+    height: 400px;
+    width: 400px;
+    border: 2px solid green;
+    display: none;
+}
